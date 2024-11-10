@@ -1,0 +1,54 @@
+/* loading font */
+@font-face {
+    font-family:"PersonaFont";
+    src: url("PersonaFont.ttf") format("truetype");
+  }
+body{
+    background-color: antiquewhite;
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weatherInfoCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+}
+.weatherForm{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.cityInput{
+    font-family: PersonaFont;
+    color: black;
+    font-size: 4rem;
+    border-radius: 15px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: -10px;
+}
+button[type="submit"]{
+    padding:10px 20px;
+    font-family: PersonaFont;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 15px;
+    background-color: brown;
+    opacity: 80%;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    background-color: rgb(255, 0, 0);
+}
+.errorDisplay{
+    font:bolder;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
